@@ -15,6 +15,7 @@
 		C42657D31B06F8F8007D66E3 /* SwiftRoadToUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42657D21B06F8F8007D66E3 /* SwiftRoadToUITests.swift */; };
 		C42657DD1B07B065007D66E3 /* AddHeroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42657DC1B07B065007D66E3 /* AddHeroViewController.swift */; };
 		C42657E11B07B0FF007D66E3 /* HeroListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42657E01B07B0FF007D66E3 /* HeroListTableViewController.swift */; };
+		C42657E31B07B386007D66E3 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42657E21B07B386007D66E3 /* Hero.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		C42657D21B06F8F8007D66E3 /* SwiftRoadToUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftRoadToUITests.swift; sourceTree = "<group>"; };
 		C42657DC1B07B065007D66E3 /* AddHeroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddHeroViewController.swift; sourceTree = "<group>"; };
 		C42657E01B07B0FF007D66E3 /* HeroListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroListTableViewController.swift; sourceTree = "<group>"; };
+		C42657E21B07B386007D66E3 /* Hero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				C42657BE1B06F8F8007D66E3 /* ViewController.swift */,
 				C42657E01B07B0FF007D66E3 /* HeroListTableViewController.swift */,
 				C42657DC1B07B065007D66E3 /* AddHeroViewController.swift */,
+				C42657E21B07B386007D66E3 /* Hero.swift */,
 				C42657C01B06F8F8007D66E3 /* Main.storyboard */,
 				C42657C31B06F8F8007D66E3 /* Images.xcassets */,
 				C42657C51B06F8F8007D66E3 /* LaunchScreen.xib */,
@@ -218,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C42657E31B07B386007D66E3 /* Hero.swift in Sources */,
 				C42657BF1B06F8F8007D66E3 /* ViewController.swift in Sources */,
 				C42657DD1B07B065007D66E3 /* AddHeroViewController.swift in Sources */,
 				C42657BD1B06F8F8007D66E3 /* AppDelegate.swift in Sources */,

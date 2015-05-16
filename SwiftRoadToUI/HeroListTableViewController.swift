@@ -9,15 +9,36 @@
 import UIKit
 
 class HeroListTableViewController: UITableViewController {
-
+    var heroList = [Hero]();  //数据源
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        loadInitialData();
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+    }
+    
+    func loadInitialData() {
+        let hero1 = Hero()
+        hero1.name = "德玛西亚皇子"
+        heroList.append(hero1)
+        
+        let hero2 = Hero()
+        hero2.name = "德玛西亚之力"
+        heroList.append(hero2)
+        
+        let hero3 = Hero()
+        hero3.name = "德邦总管"
+        heroList.append(hero3)
+        
+        
+
+    }
+    
+    @IBAction func unwindToList(segue: UIStoryboardSegue) {
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -30,24 +51,23 @@ class HeroListTableViewController: UITableViewController {
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // #warning Potentially incomplete method implementation.
         // Return the number of sections.
-        return 0
+        return 1
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete method implementation.
         // Return the number of rows in the section.
-        return 0
+        return heroList.count
     }
 
-    /*
+ 
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath) as! UITableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as! UITableViewCell
 
         // Configure the cell...
-
+        cell.textLabel?.text = heroList[indexPath.row].name 
         return cell
     }
-    */
 
     /*
     // Override to support conditional editing of the table view.

@@ -13,6 +13,8 @@
 		C42657C41B06F8F8007D66E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C42657C31B06F8F8007D66E3 /* Images.xcassets */; };
 		C42657C71B06F8F8007D66E3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C42657C51B06F8F8007D66E3 /* LaunchScreen.xib */; };
 		C42657D31B06F8F8007D66E3 /* SwiftRoadToUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42657D21B06F8F8007D66E3 /* SwiftRoadToUITests.swift */; };
+		C42657DD1B07B065007D66E3 /* AddHeroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42657DC1B07B065007D66E3 /* AddHeroViewController.swift */; };
+		C42657E11B07B0FF007D66E3 /* HeroListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42657E01B07B0FF007D66E3 /* HeroListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		C42657CC1B06F8F8007D66E3 /* SwiftRoadToUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftRoadToUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C42657D11B06F8F8007D66E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C42657D21B06F8F8007D66E3 /* SwiftRoadToUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftRoadToUITests.swift; sourceTree = "<group>"; };
+		C42657DC1B07B065007D66E3 /* AddHeroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddHeroViewController.swift; sourceTree = "<group>"; };
+		C42657E01B07B0FF007D66E3 /* HeroListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			children = (
 				C42657BC1B06F8F8007D66E3 /* AppDelegate.swift */,
 				C42657BE1B06F8F8007D66E3 /* ViewController.swift */,
+				C42657E01B07B0FF007D66E3 /* HeroListTableViewController.swift */,
+				C42657DC1B07B065007D66E3 /* AddHeroViewController.swift */,
 				C42657C01B06F8F8007D66E3 /* Main.storyboard */,
 				C42657C31B06F8F8007D66E3 /* Images.xcassets */,
 				C42657C51B06F8F8007D66E3 /* LaunchScreen.xib */,
@@ -213,7 +219,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C42657BF1B06F8F8007D66E3 /* ViewController.swift in Sources */,
+				C42657DD1B07B065007D66E3 /* AddHeroViewController.swift in Sources */,
 				C42657BD1B06F8F8007D66E3 /* AppDelegate.swift in Sources */,
+				C42657E11B07B0FF007D66E3 /* HeroListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +417,7 @@
 				C42657D81B06F8F8007D66E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C42657D91B06F8F8007D66E3 /* Build configuration list for PBXNativeTarget "SwiftRoadToUITests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +426,7 @@
 				C42657DB1B06F8F8007D66E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

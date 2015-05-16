@@ -12,4 +12,5 @@ class Hero {
     var name = ""
     var iconName = ""
     var star = ""
+    var isLike: Bool = false //是否喜欢 默认不喜欢
 }
